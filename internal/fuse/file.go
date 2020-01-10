@@ -17,7 +17,7 @@ import (
 )
 
 // The default block size to report in stat
-const blockSize = 512
+const blockSize = 16384‬
 
 // Statically ensure that *file implements the given interface
 var _ = fs.HandleReader(&file{})
